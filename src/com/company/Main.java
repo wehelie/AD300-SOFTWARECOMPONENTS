@@ -26,10 +26,10 @@ public class Main {
         for (int i = 0; i < array.length; i++) {
             array[i] = scanf.nextInt();
         }
-        for (int temp: array) {
-            sum += temp;
+        for (int integ: array) {
+            sum += integ;
         }
-
+        // console the results
         System.out.println(String.format("The average comes out to be: %d", sum/array.length));
     }
 }
