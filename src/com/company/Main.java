@@ -15,7 +15,7 @@
  |      Language:  Java
  *===========================================================================*/
 
-package com.company;
+
 // * is a wildcard which means that you're importing all the classes in the particular package
 
 import java.util.Scanner;
@@ -41,6 +41,10 @@ public class Main {
         // declare an array with size of
         int array[] = new int[10];
         System.out.println("Enter 10 numbers into this array: ");
+        while (!scanf.hasNextInt()) {
+          System.out.println("Input needs to be an Integer");
+          scanf.next();
+        }
         for (int i = 0; i < array.length; i++) {
             array[i] = scanf.nextInt();
         }
