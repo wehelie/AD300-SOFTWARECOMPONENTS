@@ -25,11 +25,10 @@ public class Main {
 
         // lowest number in the sorted array or the first element
         int low = 0;
+        
         // the highest in the sorted array
         int high = arr.length - 1;
-
-
-
+        
         // give me the sorted list
 
         System.out.print("Enter An INTEGER : ");
@@ -67,7 +66,7 @@ public class Main {
             }
 
         }
-
+        // nothing found
         return -1;
 
     }
